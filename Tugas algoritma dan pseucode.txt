@@ -1,0 +1,51 @@
+#Tugas algoritma dan pseucode
+
+##PROJECT 1
+
+1.Siapkan variabel jam dengan nilai input dari user dan variabel hasil tanpa nilai
+2.Kalkulasikan nilai dari variabel jam dikali 3600
+3.simpan hasil kalkulasi didalam variabel hasil
+4.tampilkan nilai variabel hasil
+===========================================
+
+##PROJECT 2
+
+1.Siapkan variabel nilai1 dan nilai2 yang diinput dari user
+2.Jika nilai1 lebih besar dari nilai2 maka tampilkan output "nilai1 adalah nilai terbesar"
+3.Jika nilai2 lebih besar dari nilai1 maka tampilkan output "nilai2 adalah nilai terbesar"
+4.Jika nilai1 dan nilai2 sama besar, maka tampilkan "nilai pertama sama dengan nilai kedua"
+5.Jika kondisi pada step ke 2,3 dan 4 tidak terpenuhi maka akan kembali ke step pertama
+===========================================
+
+##PROJECT 3
+
+1.Siapkan variabel jumlahTraveler,hargaTiket,jenisTiket yang diinput dari user
+2.Jika nilai jenisTiket adalah "one way" maka nilai dari jumlahTraveler dikalikan nilai dari hargaTiket
+3.Jika nilai jenisTiket adalah "two way" maka nilai dari jumlahTraveler dikalikan hargaTiket lalu dikalikan 2
+4.Jika kondisi pada step 2 dan 3 tidak terpenuhi, maka akan kembali ke step pertama
+===========================================
+
+##PROJECT 4
+
+STORE "N" with any value
+STORE "COUNTER" with 0
+WHILE "COUNTER" <= "N"
+	 DISPLAY "COUNTER"
+	 ADD "COUNTER" by 1
+==========================================
+
+##PROJECT 5
+
+STORE "n" with any value
+STORE "minValue" with 1
+WHILE "minValue" <= "n" 
+	IF "minValue" mod 3 equals to 0 AND "minValue" mod 5 equals to 0
+		DISPLAY "FizzBuzz"
+	ELSE 
+		IF "minValue" mod 3 equals to 0
+			DISPLAY "Fizz"
+		ELSE
+			IF "minValue" mod 5 equals to 0
+				DISPLAY "Buzz"
+			ELSE 
+				DISPLAY "minValue"
